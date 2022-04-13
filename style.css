@@ -1,0 +1,77 @@
+   /*NavBar*/
+
+nav { 
+    background-color: #636e72;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    color:whitesmoke;
+    display: flex;
+    list-style: none;
+    margin-right: 80px;
+    margin-left: -40px;
+    padding: 15px 0;
+}
+
+.second {
+    background-color: whitesmoke;
+    color:#636e72;
+}
+
+    /*SectionandTitle*/
+
+.carousel {
+    background-color:#dfe6e9;
+    padding: 100px;
+    margin: -20px;
+}
+
+span {
+    font-size: 40px;
+}
+
+.Title {
+    text-align: center;
+    color: #636e72;
+}
+
+article {
+    background-color: #dfe6e9;
+    height: 350px;
+    width: 400px;
+}
+
+#flex-container {
+    border-bottom-width:2px;
+    border-bottom-style:solid;
+    border-bottom-color:#636e72;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+    /*Form*/
+
+.contact {
+    color: #636e72;
+}
+
+form {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin: 10px;
+    width: 700px;
+}
+
+textarea {
+    height: 100px;
+}
